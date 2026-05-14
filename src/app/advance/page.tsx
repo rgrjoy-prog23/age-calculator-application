@@ -1,3 +1,4 @@
+import Advance from "@/components/Advance";
 import Basic from "@/components/Basic";
 import {
   Card,
@@ -8,8 +9,8 @@ import {
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Basic | Age Calculator ",
-  description: "Basic  page of Age Calculator",
+  title: "Advance | Age Calculator ",
+  description: "Advance  page of Age Calculator",
 };
 
 const page = () => {
@@ -18,11 +19,11 @@ const page = () => {
       <Card className="min-w-xs">
         <CardHeader>
           <CardTitle className="text-center text-2xl">
-            Basic Age Calculator
+            Advance Age Calculator
           </CardTitle>
         </CardHeader>
         <CardContent>
-          <Basic />
+          <Advance />
         </CardContent>
       </Card>
     </section>
